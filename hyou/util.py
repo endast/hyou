@@ -39,7 +39,6 @@ def format_column_address(index_column):
     return ''.join(reversed(letters))
 
 
-
 def format_range_a1_notation(
         worksheet_title, start_row, end_row, start_col, end_col):
     return '\'%s\'!%s%d:%s%d' % (
